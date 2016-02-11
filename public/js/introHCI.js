@@ -36,7 +36,7 @@ function addDetails(result) {
 		console.log("URL:" + result.details + "project:" + projects);	
 		var projectHTML = "<a href='#' class='details'>"+
 		"<img src="+result['image']+" class='detailsImage'>" +
-		"<p>" + result['title'] + "</p>" + "<p><small>" + result['date'] + "</small></p></a>" 
+		"<p><small>" + result['date'] + "</small></p></a>" 
 		+ "<p>" + result['summary'] + "</p>"; 
 			var projectContainer = "#project" + result['id']+" .details";
 			$(projectContainer).html(projectHTML); 
