@@ -32,8 +32,6 @@ function addProjectDetails(e) {
 
 }
 function addDetails(result) { 
-		var projects = $(this).closest(' .project');
-		console.log("URL:" + result.details + "project:" + projects);	
 		var projectHTML = "<a href='#' class='details'>"+
 		"<img src="+result['image']+" class='detailsImage'>" +
 		"<p><small>" + result['date'] + "</small></p></a>" 
